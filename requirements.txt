@@ -1,0 +1,12 @@
+langchain-text-splitters
+langchain-community
+langgraph
+langchain[mistralai]
+langchain-mistralai
+langchain-core
+pypdf
+python-dotenv
+streamlit
+pytesseract
+pdf2image
+pillow

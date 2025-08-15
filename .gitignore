@@ -1,0 +1,20 @@
+# Virtual env (criado dentro da pasta)
+venv/
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+
+# Caches / temporários
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Arquivos grandes/temporários do projeto
+*.pdf
+*.csv
+*.env
+
+# SO
+.DS_Store
+Thumbs.db
