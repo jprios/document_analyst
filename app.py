@@ -31,9 +31,9 @@ if "vector_store" not in st.session_state:
 # Interface com o Usuário
 # =============================
 st.set_page_config(layout="centered")
-st.title("💬 Document Related Chatbot")
+st.title("💬 Document Chatbot")
 
-uploaded_file = st.file_uploader("📄 Faça upload do PDF", type=["pdf"])
+uploaded_file = st.file_uploader("📄 Upload here the PDF Document", type=["pdf"])
 
 if uploaded_file and st.session_state.vector_store is None:
     with st.spinner("📚 Indexing document..."):
