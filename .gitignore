@@ -13,7 +13,6 @@ __pycache__/
 # Arquivos grandes/temporários do projeto
 *.pdf
 *.csv
-*.env
 
 # SO
 .DS_Store
